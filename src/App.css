@@ -1,0 +1,121 @@
+.ptag {
+  height: 100px;
+  /* 간격 넓힐 때 사용 */
+}
+
+.colorBox {
+  width: 200px;
+  text-align: center;
+}
+.sizeBox {
+  width: 200px;
+  text-align: center;
+}
+.btn {
+  width: 130px;
+  margin: 3px;
+}
+
+.CartTable {
+  margin-top: 300px;
+  margin-bottom: 1000px;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.W-B {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.N-A {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.startani {
+  opacity: 0;
+}
+.endani {
+  opacity: 1;
+  transition: opacity 1s;
+  /* opacity가 변경될 때 2초에 걸쳐서 해 달라는 뜻 */
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.nav-menu {
+  font-size: 20px;
+}
+.ContainerFont {
+  font-size: large;
+  font-weight: 600;
+}
+
+.scroll-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+}
+
+.NavBarDesign {
+  width: auto;
+  height: 100px;
+}
+
+.Main-bg {
+  width: auto;
+  height: 900px;
+  background-image: url("./img/mainbg.jpg");
+  background-position: center;
+  /* background-clip: content-box; */
+  margin-bottom: 100px;
+  background-repeat: no-repeat;
+}
+
+.aboutContent {
+  margin-bottom: 500px;
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.aboutPhoto {
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
